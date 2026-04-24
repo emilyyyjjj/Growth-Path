@@ -1,1 +1,5 @@
 # Growth-Path
+
+Description: Growth Path is a terminal-based Python application that helps students stay productive and build consistent study habits. The program represents a student’s academic progress as a virtual plant that grows as the user studies and completes assignments. The plant’s level increases based on experience points (XP), and its condition changes depending on user activity. If the user studies regularly, the plant improves and can enter a blooming state. If the user is inactive, the plant becomes droopy or wilted. The program includes features such as adding assignments, logging study sessions, tracking streaks, and generating a simple study plan.
+
+How to Run: To run the project, first make sure Python is installed on your computer. Then open a terminal in the project folder where main.py and plant_logic.py are located. Run the program by typing python main.py and pressing Enter. A menu will appear in the terminal, allowing you to choose options such as viewing plant status, adding assignments, logging study sessions, and generating a study plan.

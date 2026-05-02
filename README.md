@@ -1,37 +1,28 @@
-# 🌱 GrowPath Python - Student Productivity & Plant Growth App
-
-A Python implementation of GrowPath using Streamlit - a deeply personal, customizable plant-growth app that motivates students to complete assignments across an entire semester.
+# GrowPath CS32 Final Project 
 
 ## Features
 
-🌱 **Plant Growth System**
-- Your plant grows as you complete assignments
-- Wilts when you neglect your work and miss deadlines
-- Reflects your productivity in real-time
+**Plant Growth System**
+- The plant grows when you complete assignments
+- It wilts when you neglect your work and miss deadlines
 
-📝 **Assignment Tracking**
+**Assignment Tracking**
 - Track assignments across multiple courses
 - Set due dates and get visual status indicators
 - Mark assignments as complete to grow your plant
 - View assignment details and descriptions
 
-🎨 **Customization**
-- Choose your plant's name
-- Customize plant colors
-- Create a plant that feels personally meaningful
+**Customization**
+- Give your plant a name 
+- Customize its colors 
+- Helps user become personally connected to the plant 
 
-📊 **Progress Tracking**
+**Progress Tracking**
 - Track completion rate
 - See plant health status
-- Monitor assignment timeline
+- Monitor assignments over time
 
-## Getting Started
-
-### Prerequisites
-- Python 3.8+
-- pip
-
-### Installation
+### Installation Steps
 
 1. Clone the repository:
 ```bash
@@ -55,8 +46,8 @@ The app will open in your default web browser at `http://localhost:8501`
 
 ### Plant Health System
 - **Health Range**: 0-100%
-- **Growth Stages**: Seed → Seedling → Sprout → Plant → Blooming
-- **Health Gain**: 10-30 points per completed assignment (scales with difficulty)
+- **Growth Stages**: Seed to Seedling to Sprout to Plant to Blooming
+- **Health Gain**: 10-30 points per completed assignment (and scales with difficulty)
 - **Health Decay**: Accelerating penalty for overdue assignments
 
 ### Assignment Status
@@ -64,7 +55,7 @@ The app will open in your default web browser at `http://localhost:8501`
 - 🟠 **Due Today**: Due today
 - 🟡 **Due Tomorrow**: Due tomorrow
 - 🟢 **Upcoming**: Due in 2+ days
-- ✅ **Completed**: Finished assignments
+- ✅ **Completed**: Finished assignment
 
 ## Tech Stack
 - **Streamlit**: Web app framework
@@ -73,10 +64,10 @@ The app will open in your default web browser at `http://localhost:8501`
 - **Session State**: Data persistence (in-memory)
 
 ## Differences from React Version
-- **Pure Python**: No JavaScript required
-- **Streamlit UI**: Different visual design but same functionality
-- **Session-based**: Data persists during session (not localStorage)
-- **Real-time Updates**: Automatic UI updates on state changes
+CHANGE
+
+## Ways that AI was used 
+
 
 ## Future Enhancements
 - Database integration for persistent storage

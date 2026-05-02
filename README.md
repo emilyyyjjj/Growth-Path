@@ -1,5 +1,86 @@
-# Growth-Path
+# 🌱 GrowPath Python - Student Productivity & Plant Growth App
 
-Description: Growth Path is a terminal-based Python application that helps students stay productive and build consistent study habits. The program represents a student’s academic progress as a virtual plant that grows as the user studies and completes assignments. The plant’s level increases based on experience points (XP), and its condition changes depending on user activity. If the user studies regularly, the plant improves and can enter a blooming state. If the user is inactive, the plant becomes droopy or wilted. The program includes features such as adding assignments, logging study sessions, tracking streaks, and generating a simple study plan.
+A Python implementation of GrowPath using Streamlit - a deeply personal, customizable plant-growth app that motivates students to complete assignments across an entire semester.
 
-How to Run: To run the project, first make sure Python is installed on your computer. Then open a terminal in the project folder where main.py and plant_logic.py are located. Run the program by typing python main.py and pressing Enter. A menu will appear in the terminal, allowing you to choose options such as viewing plant status, adding assignments, logging study sessions, and generating a study plan.
+## Features
+
+🌱 **Plant Growth System**
+- Your plant grows as you complete assignments
+- Wilts when you neglect your work and miss deadlines
+- Reflects your productivity in real-time
+
+📝 **Assignment Tracking**
+- Track assignments across multiple courses
+- Set due dates and get visual status indicators
+- Mark assignments as complete to grow your plant
+- View assignment details and descriptions
+
+🎨 **Customization**
+- Choose your plant's name
+- Customize plant colors
+- Create a plant that feels personally meaningful
+
+📊 **Progress Tracking**
+- Track completion rate
+- See plant health status
+- Monitor assignment timeline
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- pip
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd cs-32-final-project
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the application:
+```bash
+streamlit run growpath_python.py
+```
+
+The app will open in your default web browser at `http://localhost:8501`
+
+## How It Works
+
+### Plant Health System
+- **Health Range**: 0-100%
+- **Growth Stages**: Seed → Seedling → Sprout → Plant → Blooming
+- **Health Gain**: 10-30 points per completed assignment (scales with difficulty)
+- **Health Decay**: Accelerating penalty for overdue assignments
+
+### Assignment Status
+- 🔴 **Overdue**: Past due date
+- 🟠 **Due Today**: Due today
+- 🟡 **Due Tomorrow**: Due tomorrow
+- 🟢 **Upcoming**: Due in 2+ days
+- ✅ **Completed**: Finished assignments
+
+## Tech Stack
+- **Streamlit**: Web app framework
+- **Pandas**: Data manipulation
+- **Python-dateutil**: Date parsing
+- **Session State**: Data persistence (in-memory)
+
+## Differences from React Version
+- **Pure Python**: No JavaScript required
+- **Streamlit UI**: Different visual design but same functionality
+- **Session-based**: Data persists during session (not localStorage)
+- **Real-time Updates**: Automatic UI updates on state changes
+
+## Future Enhancements
+- Database integration for persistent storage
+- User authentication
+- Plant growth animations
+- Email notifications for due assignments
+- Data export/import functionality

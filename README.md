@@ -63,8 +63,8 @@ The app will open in your default web browser at `http://localhost:8501`
 - **Python-dateutil**: Date parsing
 - **Session State**: Data persistence (in-memory)
 
-## Differences from React Version
-CHANGE
+## Differences from FP Status Version
+Our new version builds upon previous versions by preserving the original plant-based productivity system while making it more interactive and accessible. Earlier versions worked through the terminal, where users typed menu options to add assignments, log study sessions, view plant status, and generate plans. The new version expands this into a web app, allowing users to interact with the same core features through a visual dashboard. It also keeps the project organized by separating the plant growth logic from the user interface, making the app easier to maintain and improve in the future.
 
 ## Ways that AI was used 
 

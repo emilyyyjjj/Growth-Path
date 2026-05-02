@@ -87,7 +87,7 @@ def load_data():
     if 'assignments' not in st.session_state:
         st.session_state.assignments = []
     if 'plant_health' not in st.session_state:
-        st.session_state.plant_health = 0
+        st.session_state.plant_health = 10
     if 'plant_customization' not in st.session_state:
         st.session_state.plant_customization = {
             'name': 'My Plant',

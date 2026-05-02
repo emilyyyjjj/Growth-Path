@@ -68,6 +68,86 @@ Our new version builds upon previous versions by preserving the original plant-b
 
 ## Ways that AI was used 
 
+1. Choosing Streamlit for instant UI
+
+ helped  pick Streamlit as the framework, which:
+
+turns Python into a web app with almost no frontend code
+automatically renders UI in the browser
+updates the interface in real time when state changes
+
+2.Structuring the app (logic vs UI)
+
+AI helped separate:
+
+core logic (plant growth, health, assignment status)
+UI layer (Streamlit components)
+
+Examples:
+
+get_plant_stage, calculate_health_gain → pure logic
+Streamlit columns, buttons, forms → interface
+
+3.Designing the plant growth system
+
+ contributed to turning the idea into a working system with rules, like:
+
+health range (0–100)
+growth stages (Seed → Blooming)
+decay formula for overdue work
+reward scaling based on assignment difficulty
+
+That’s not just coding—it’s system design.
+
+4.Assignment tracking logic
+
+overdue
+due today
+due tomorrow
+upcoming
+completed
+
+And built functions like:
+
+get_assignment_status
+get_days_overdue
+
+5. Generating test coverage
+
+ test_growpath.py file is a big AI contribution:
+
+validates plant stages
+checks health calculations
+verifies assignment logic
+
+6. Session state management
+
+AI guided the use of Streamlit session state, which:
+
+stores assignments and plant health during runtime
+allows the app to update interactively
+avoids needing a database
+
+7. UI/UX improvements
+
+
+
+columns layout (plant vs assignments)
+color-coded statuses (🔴 🟠 🟡 🟢 ✅)
+progress bars
+expanders and forms
+
+8. Dependency & environment setup
+
+requirements.txt for easy setup
+clear run instructions (streamlit run ...)
+
+9. Rapid prototyping
+
+generated working code quickly
+suggested improvements iteratively
+helped debug issues (like running on other laptops)
+
 
 ## Future Enhancements
 - Database integration for persistent storage
